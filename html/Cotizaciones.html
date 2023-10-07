@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Forms</title>
+    <title>Cotizaciones</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -11,7 +11,8 @@
       crossorigin="anonymous"
     />
   </head>
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/CotizacionesStyle.css" />
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
@@ -41,19 +42,43 @@
               <a class="nav-link active" aria-current="page" href="../Index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Cotizaciones</a>
+              <a class="nav-link" href="Cotizaciones.html">Cotizaciones</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Facturacion</a>
+              <a class="nav-link" href="Facturacion.html">Facturacion</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Pedidos</a>
+              <a class="nav-link" href="GestionGerente.html">Gestion de gerente</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="GestionSucursal.html">Gestion de sucursal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Ronal.html">Gestion de ronal</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+    <h3>Formulario de cotizaciones</h3>
+    <form>
+      <label for="producto">Producto</label>
+      <input type="text" id="producto" name="producto" required placeholder="Ingresa tu producto"/>
 
+      <label for="cantidad">Cantidad</label>
+      <input type="text" id="cantidad" name="cantidad" required placeholder="Ingresa tu cantidad"/>
+
+      <label for="precio">Precio</label>
+      <input type="text" id="precio" name="precio" required placeholder="Ingresa el precio"/>
+
+      <label for="cliente">Cliente</label>
+      <input type="text" id="cliente" name="cliente" required placeholder="Ingresa tu producto"/>
+
+      <label for="proveedor">Proveedor</label>
+      <input type="text" id="proveedor" name="proveedor" required placeholder="Ingresa el producto"/>
+
+      <input type="submit" value="Enviar" />
+    </form>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
