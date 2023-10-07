@@ -1,6 +1,5 @@
 body {
     font-family: Arial, sans-serif;
-    
     margin: 0;
     padding: 0;
 }
@@ -9,9 +8,9 @@ body {
     margin: 0 auto;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-image: url('https://img.freepik.com/foto-gratis/lisa-pared-estuco-blanco_1194-6983.jpg'); /* Reemplaza con la URL de tu imagen */
-    background-size: cover; /* Ajustar la imagen al tamaño del contenedor */
-    background-repeat: no-repeat; /* Evitar la repetición de la imagen */
+    background-image: url('https://img.freepik.com/foto-gratis/lisa-pared-estuco-blanco_1194-6983.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
     position: relative;
     border-radius: 5px;
     padding: 20px;
@@ -46,7 +45,6 @@ button[type="submit"] {
     border-radius: 3px;
     cursor: pointer;
 }
-/* Estilo para la cabecera del formulario */
 .header {
     text-align: center;
     margin-bottom: 20px;
