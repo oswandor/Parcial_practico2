@@ -41,6 +41,6 @@ input[type="submit"]:hover {
 h3 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: auto;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
