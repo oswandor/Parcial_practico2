@@ -1,7 +1,11 @@
-.container-md {
-    width: 574px;
+.container{
     height: auto;
     position: relative;
+    margin: auto;
+    padding: 10px;
+}
+
+.card text-center{
     margin: auto;
     padding: 10px;
 }
